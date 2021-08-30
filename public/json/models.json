@@ -1,0 +1,219 @@
+
+  [
+    {
+      "name": "于家堡洲际酒店",
+      "position": [
+        117.679935,
+        38.99940
+      ],
+      "modelUrl": "/OBJmodel/model/SCbuilding.gltf",
+      "rotateX": 90,
+      "rotateY": 92,
+      "scale": 4.3,
+      "height": -150,
+      "scene": 0,
+      "txtHeight": 500,
+      "buildId": "",
+      "powerBox": {
+        "name": "配电箱",
+        "powerId": "",
+        "longitude": "117.679935",
+        "latitude": "38.99940",
+        "buildingH": 300
+      },
+      "masterController":{
+        "name":"主控器",
+        "masterId": "",
+        "longitude": "117.679935",
+        "latitude": "38.99980",
+        "buildingH": 300
+      }
+    },
+    {
+      "name": "自贸大厦",
+      "position": [
+        117.679789,
+        38.998177
+      ],
+      "modelUrl": "/OBJmodel/model/ZMbuilding.gltf",
+      "rotateX": 90,
+      "rotateY": 182,
+      "scale": 2.3,
+      "height": -50,
+      "scene": 0,
+      "powerBox": {
+        "name": "配电箱",
+        "powerId": "",
+        "longitude": "117.679362",
+        "latitude": "38.997835",
+        "buildingH": 1080
+      },
+      "masterController":{
+        "name":"主控器",
+        "masterId": "",
+        "longitude": "117.679162",
+        "latitude": "38.997535",
+        "buildingH": 1080
+      }
+    },
+    {
+      "name": "新金融大厦",
+      "position": [
+        117.679245,
+        38.996861
+      ],
+      "modelUrl": "/OBJmodel/model/XJRbuilding.gltf",
+      "rotateX": 90,
+      "rotateY": 93,
+      "scale": 2,
+      "height": -1,
+      "scene": 0,
+      "powerBox": {
+        "name": "配电箱",
+        "powerId": "",
+        "longitude": "117.67989",
+        "latitude": "38.996462",
+        "buildingH": 970
+      }
+    },
+    {
+      "name": "建发宝晨大厦",
+      "position": [
+        117.679600,
+        38.995781
+      ],
+      "modelUrl": "/OBJmodel/model/JFmodel.gltf",
+      "rotateX": 90,
+      "rotateY": 182,
+      "scale": 1.18,
+      "height": -100,
+      "scene": 0,
+      "powerBox": {
+        "name": "配电箱",
+        "powerId": "",
+        "longitude": "117.679383",
+        "latitude": "38.995123",
+        "buildingH": 850
+      }
+    },
+    {
+      "name": "天津农商银行大厦",
+      "position": [
+        117.681349,
+        38.99569
+      ],
+      "modelUrl": "/OBJmodel/model/TJNSYHbuilding.gltf",
+      "rotateX": 90,
+      "rotateY": 93,
+      "scale": 1.3,
+      "height": 0,
+      "scene": 0,
+      "powerBox": {
+        "name": "配电箱",
+        "powerId": "",
+        "longitude": "117.681149",
+        "latitude": " 38.99512",
+        "buildingH":850
+      }
+    },
+    {
+      "name": "双创大厦",
+      "position": [
+        117.681599,
+        38.996907
+      ],
+      "modelUrl": "/OBJmodel/model/SCDCbuilding.gltf",
+      "rotateX": 90,
+      "rotateY": 182,
+      "scale": 2.6,
+      "height": -1,
+      "scene": 0,
+      "powerBox": {
+        "name": "配电箱",
+        "powerId": "",
+        "longitude": "117.681299",
+        "latitude": " 38.996907",
+        "buildingH": 1080
+      }
+    },
+    {
+      "name": "科技金融大厦",
+      "position": [
+        117.681452,
+        38.997700
+      ],
+      "modelUrl": "/OBJmodel/model/KJZRbuilding.gltf",
+      "rotateX": 90,
+      "rotateY": 3,
+      "scale": 2.1,
+      "height": -1,
+      "scene": 0,
+      "powerBox": {
+        "name": "配电箱",
+        "powerId": "",
+        "longitude": " 117.681452",
+        "latitude": " 38.998100",
+        "buildingH": 1080
+      }
+    },
+    {
+      "name": "华夏金融大厦",
+      "position": [
+        117.6826500,
+        38.997676
+      ],
+      "modelUrl": "/OBJmodel/model/HXJRbuilding.gltf",
+      "rotateX": 90,
+      "rotateY": -88,
+      "scale": 1.35,
+      "height": -1,
+      "scene": 0,
+      "powerBox": {
+        "name": "配电箱",
+        "powerId": "",
+        "longitude": "117.6833000",
+        "latitude": "38.997676",
+        "buildingH": 1340
+      }
+    },
+    {
+      "name": "宝信大厦",
+      "position": [
+        117.685046,
+        38.995184
+      ],
+      "modelUrl": "/OBJmodel/model/BFbuilding.gltf",
+      "rotateX": 90,
+      "rotateY": 182,
+      "scale": 2,
+      "height": -50,
+      "scene": 0,
+      "powerBox": {
+        "name": "配电箱",
+        "powerId": "",
+        "longitude": "117.682842",
+        "latitude": "38.995326",
+        "buildingH": 340
+      }
+    },
+    {
+      "name": "锦西台大厦",
+      "position": [
+        117.671755,
+        38.994893
+      ],
+      "modelUrl": "/OBJmodel/model/JXTDSbuilding.gltf",
+      "rotateX": 90,
+      "rotateY": 180,
+      "scale": 0.8,
+      "height": -50,
+      "scene": 0,
+      "powerBox": {
+        "name": "配电箱",
+        "powerId": "",
+        "longitude": "117.672006",
+        "latitude": "38.994743",
+        "buildingH": 240
+      }
+    }
+  ]

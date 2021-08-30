@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="leader-line.min.js"></script>
+</head>
+<body>
+
+   <div class="start" id="start">start</div>
+   <div class="end" id="end">end</div>
+
+</body>
+<style>
+
+    .start,
+    .end {
+        position: absolute;
+
+        display: inline-block;
+        height: 50px;
+        width: 50px;
+        border: 1px solid #ddd;
+    }
+
+    .start {
+        left: 0;
+        top: 0;
+    }
+
+    .end {
+        right: 0;
+        bottom: 0;
+    }
+</style>
+<script>
+    new LeaderLine(
+        document.getElementById('start'),
+        document.getElementById('end')
+    );
+</script>
+</html>

@@ -1,0 +1,332 @@
+
+.el-icon-circle-close {
+  color: #fff !important;
+}
+
+.amap-info-content {
+  background: rgba(0, 0, 0, .6);
+  width: 100%;
+  padding: 0;
+  .amap-info-close {
+    color: #B8E6F4;
+  }
+
+}
+
+.amap-info-sharp {
+  border-bottom: 0px solid transparent !important;
+}
+
+//维修实况
+.lumlord-zhyw-largescreen-order-marker {
+  text-align: center;
+  min-width: 60px;
+  img {
+    width: 45px;
+    height: 42px;
+  }
+  p{
+    font-size: 20px;
+    font-family: STHeiti;
+  }
+  .reportRepairText {
+    color: #FFFB00;
+  }
+  .orderProcessText {
+    color: #00F900;
+  }
+  .underReviewText {
+    color: #FFFCFC;
+  }
+  .finishOrderText {
+    color: #46D7FF;
+  }
+}
+
+/*
+
+110010  巡检图人员实时定位点样式
+
+*/
+.lumlord-qyzcGIS-pepleGPS {
+  width: 15px;
+  height: 15px;
+  background-size: cover;
+  position: relative;
+  img {
+    width: 30px;
+    height: 30px;
+    //border-radius: 50%;
+    position: absolute;
+    left: 2px;
+    top: 2px;
+    object-fit: cover;
+  }
+}
+
+/*
+
+11  巡检图打卡点
+
+*/
+.lumlord-qyzc-clockOoint{
+  width: 15px;
+  height: 15px;
+  background: #0D1C3C;
+  border-radius: 50%;
+  border: 1px solid #EBB342;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .hollowSpot{
+    width: 12px;
+    height: 12px;
+    background: #EBB342;
+    border-radius: 50%;
+  }
+}
+
+/*
+
+3 故障责任人 最新上报故障
+
+
+*/
+.lumlord-qyzc-yw-fault-wrapper {
+  height: 40px;
+  position: relative;
+  .lumlord-qyzc-yw-fault-center {
+    width: 50px;
+    height: 50px;
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+  }
+}
+
+/*
+
+1 巡检图片
+
+
+*/
+.lumlord-qyzc-superposition-center {
+  white-space: nowrap;
+  position: relative;
+  width: 70px;
+  height: 70px;
+  .lumlord-qyzc-superposition-imgs {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    overflow: hidden;
+    background: #fff;
+    padding: 1px;
+    box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.5);
+    box-sizing: border-box;
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+}
+
+/*
+2 故障责任人旧数据展示
+*/
+
+.lumlord-qyzc-yw-personLiable-wrapper {
+  height: 40px;
+  position: relative;
+  .lumlord-qyzc-personItem-Imgs {
+    flex: 1 1 auto;
+    flex-direction: row;
+    display: flex;
+    .lumlord-qyzc-personItem {
+      width: 54px;
+      height: 66px;
+    }
+  }
+  .lumlord-qyzc-gisMarker-item-text {
+    font-size: 12px;
+    color: #C1F1FE;
+    white-space: nowrap;
+    line-height: 20px;
+    text-align: left;
+    letter-spacing: 1.5px;
+  }
+}
+
+/*
+*
+*  4 最新上报故障点相关人员信息
+*
+ * */
+.lumlord-qyzc-faultUsers-wrapper {
+  height: 40px;
+  position: relative;
+  .lumlord-qyzc-orderUsers-wrapper {
+    width: 200px;
+    height: 80px;
+    background: rgba(7, 255, 253, 0.5);
+    border-radius: 15px;
+    padding: 6px;
+    box-sizing: border-box;
+    position: relative;
+    transition: all 2s;
+    .lumlord-qyzc-orderUsers-center {
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(180deg, #15D8D9 0%, #00979A 100%);
+      border-radius: 13px;
+      .lumlord-qyzc-orderUsers-imgs {
+        width: 80px;
+        height: 80px;
+        padding: 7px;
+        box-sizing: border-box;
+        float: left;
+        img {
+          width: 80%;
+          height: 80%;
+          border-radius: 50%;
+          vertical-align: middle;
+        }
+      }
+      .lumlord-qyzc-orderUsers-texts {
+        float: left;
+        padding: 7px;
+        box-sizing: border-box;
+        p {
+          img {
+            width: 17px;
+            height: 17px;
+            vertical-align: middle;
+          }
+          span {
+            margin-left: 7px;
+          }
+        }
+      }
+      .lumlord-qyzc-orderUsers-gif {
+        width: 30px;
+        height: 30px;
+        position: absolute;
+        right: -25px;
+        top: -25px;
+        img {
+          width: 100%;
+          height: 100%;
+        }
+      }
+    }
+  }
+}
+
+/*
+*
+* 11003 车辆定位
+*
+ * */
+.lumlord-qyzc-yw-carList-wrapper {
+  height: 60px;
+  position: relative;
+
+  .lumlord-qyzc-gisMarker-carItem {
+    width: 54px;
+    height: 66px;
+  }
+  .lumlord-qyzc-car-item-info {
+    margin-top: 6px;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    .car-info {
+      height: 18px;
+      font-size: 12px;
+      font-weight: 500;
+      color: #C1F1FE;
+      line-height: 18px;
+      letter-spacing: 1px;
+      white-space: nowrap;
+    }
+  }
+}
+
+/*
+*
+* 11002 摄像监控
+*
+ * */
+.lumlord-qyzc-yw-cameraList-wrapper {
+  position: relative;
+  .lumlord-qyzc-cameraItem {
+    width: 40px;
+    height: 40px;
+  }
+  .lumlord-qyzc-videoItem-info {
+    margin-top: 6px;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    .video-info {
+      height: 18px;
+      font-size: 12px;
+      font-weight: 500;
+      color: #C1F1FE;
+      line-height: 18px;
+      letter-spacing: 1px;
+      white-space: nowrap;
+    }
+  }
+}
+
+/*
+*
+* 11004配电箱
+* */
+
+.lumlord-qyzc-yw-powerBoxs-wrapper {
+  height: 40px;
+  position: relative;
+  .lumlord-qyzc-powerBoxs-items {
+    width: 24px;
+    height: 24px;
+  }
+}
+
+/*
+*
+* 11005工控机
+* */
+
+.lumlord-qyzc-yw-IPCBoxs-wrapper {
+  height: 40px;
+  position: relative;
+  .lumlord-qyzc-IPCBoxs-items {
+    width: 54px;
+    height: 66px;
+  }
+}
+
+/*
+*
+* 11006站点
+* */
+
+.lumlord-qyzc-yw-siteBoxs-wrapper {
+  height: 40px;
+  position: relative;
+  .lumlord-qyzc-siteBoxs-items {
+    width: 54px;
+    height: 66px;
+  }
+}
+
+/*
+* 项目marker点
+*/
