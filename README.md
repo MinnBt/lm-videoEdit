@@ -1,6 +1,5 @@
 
 ![img.png](img.png)
-
 ## Project setup
 ```
 npm install
